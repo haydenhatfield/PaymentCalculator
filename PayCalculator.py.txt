@@ -1,1 +1,7 @@
-print("Hello World")
+x = input("Please input hourly pay rate")
+y = input("Please input hours worked")
+tt = input("Are you applying taxes?")
+if(tt = "Yes" or "yes"):
+    t = input("Please input tax rate")
+if(tt = "No" or "no"):
+    print("Your total pay is ")
