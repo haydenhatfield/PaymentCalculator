@@ -3,9 +3,9 @@ y = input("Please input hours worked")
 tt = input("Are you applying taxes?")
 p = int(x) * int(y) 
 
-if(tt != Yes or tt != yes or tt != No or tt != no):
-    print("Invalid input, valid inputs are Yes or No. The first letter is not case sensitive")
-    
+if(tt != "Yes" or "tt" != "yes" or tt != "No" or tt != "no"):
+    wi = input("Invalid input, valid inputs are Yes or No. The first letter is not case sensitive")
+    wi = tt
 if(tt == "Yes" or tt == "yes"):
     t = input("Please input tax rate")
     to = int(p)/int(t)
